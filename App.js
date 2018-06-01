@@ -25,6 +25,7 @@ const appUpdate = new AppUpdate({
   iosAppId: '1378347564',
   apkVersionUrl: 'https://raw.githubusercontent.com/PaiizZ/testappupdate/master/version.json',
   needUpdateApp: (needUpdate) => {
+    console.log(needUpdate,'needUpdate')
     Alert.alert(
       'Update tip',
       'Finding new version, do you want to update?',
