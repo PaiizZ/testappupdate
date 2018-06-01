@@ -23,7 +23,7 @@ const instructions = Platform.select({
 
 const appUpdate = new AppUpdate({
   iosAppId: '1378347564',
-  apkVersionUrl: 'https://github.com/PaiizZ/testappupdate/blob/master/version.json',
+  apkVersionUrl: 'https://raw.githubusercontent.com/PaiizZ/testappupdate/master/version.json',
   needUpdateApp: (needUpdate) => {
     Alert.alert(
       'Update tip',
